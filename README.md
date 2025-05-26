@@ -29,7 +29,7 @@ A minimal web application built with the LAMP stack (Linux, Apache, MySQL, PHP) 
 
 ```bash
 cd /var/www/html
-git clone <your-repo-url> scoreboard-app
+git clone https://github.com/Placide11/ScoreBoard.git
 cd scoreboard-app
 ```
 
