@@ -105,6 +105,14 @@ scoreboard-app/
 
 ## 🌐 Usage
 
+⚠️ Make sure Apache and MySQL are running:
+```bash
+sudo systemctl start apache2
+sudo systemctl start mysql
+```
+
+Then open your browser and vist the following URLs:
+
 1. **Add judges** via: `http://localhost/scoreboard-app/admin_add_judge.php`
 2. **Submit scores** via: `http://localhost/scoreboard-app/judge/submit_score.php`
 3. **View public scoreboard**: `http://localhost/scoreboard-app/public/scoreboard.php`
